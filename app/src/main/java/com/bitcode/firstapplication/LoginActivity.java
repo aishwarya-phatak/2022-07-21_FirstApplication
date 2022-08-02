@@ -22,7 +22,6 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     private int currentIndex = 0;
     private int [] imagesOfNature = {R.drawable.nature_image1,R.drawable.nature_image2,R.drawable.nature_image3};
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +50,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     class ImageClickListener implements View.OnClickListener{
         @Override
         public void onClick(View v) {
-            currentIndex++;
+            currentIndex = ++currentIndex % imagesOfNature.length;
             imageNature.setImageResource(imagesOfNature[currentIndex]);
         }
     }

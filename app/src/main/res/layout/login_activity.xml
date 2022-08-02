@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:padding="20sp"
     android:gravity="center">
-    
+
+
     <ImageView
         android:src="@drawable/ic_launcher_foreground"
         android:id="@+id/imageNature"
@@ -39,4 +40,5 @@
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
         android:textSize="20sp" />
+
 </LinearLayout>
