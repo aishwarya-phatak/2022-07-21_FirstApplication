@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_launcher_foreground</item>
+        <item>@drawable/nature_image1</item>
+        <item>@drawable/nature_image2</item>
+        <item>@drawable/nature_image3</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/purple_200</item>
+        <item>@color/white</item>
+        <item>@color/teal_200</item>
+        <item>@color/black</item>
+        <item>@color/green</item>
+    </array>
+</resources>

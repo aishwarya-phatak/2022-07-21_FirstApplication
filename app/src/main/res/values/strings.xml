@@ -2,4 +2,17 @@
     <string name="app_name">FirstApplication</string>
     <string name="welcome">Welcome</string>
     <string name="sign_in">sign_in</string>
+
+    <string name="welcome1">Welcome To Android Batch</string>
+    <string name="i_like_android">I Like Android!</string>
+
+    <string-array name="student_names">
+        <item>Mayuri</item>
+        <item>Aditya</item>
+        <item>Shruti</item>
+        <item>Pooja</item>
+        <item>Vaishali</item>
+        <item>Pallavi</item>
+    </string-array>
+
 </resources>

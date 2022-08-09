@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maximum_speed">100</integer>
+    <integer name="minimum_speed">55</integer>
+    <integer name="one">1</integer>
+
+    <integer-array name="number_of_bits">
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>24</item>
+    </integer-array>
+
+    <integer-array name="odd_numbers">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </integer-array>
+</resources>
